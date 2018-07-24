@@ -1,0 +1,166 @@
+*{margin:0;  padding:0;}
+
+html, body{
+  width: 100%;
+  background: #f1f2f6;
+}
+
+/* parte da divisão Logo */
+
+header div.logo{
+  text-align: center;
+}
+
+/* parte da divisão Banner */
+#banner{
+  background: url("../images/city.jpg") no-repeat;
+  background-size: 100%  400px;
+  height: 800px;
+}
+
+.cadastro{
+  margin-top: 220px;
+  background: rgba(52, 73, 94,0.5);
+  border-radius: 10px;
+}
+
+.logo-carro{
+  margin-top: 220px;
+}
+
+#banner h1{
+  color: #EA2027;
+  font-size: 40px;
+  font-family: 'Open Sans';
+  font-weight: bold;
+}
+
+#banner h3{
+  color: #ecf0f1;
+  padding: 5px;
+  font-size: 24px;
+  text-align: center;
+  text-shadow: 2px 2px 5px #2c3e50;
+}
+
+hr{
+  border-top: 1px solid #EA2027;
+}
+
+#banner p{
+  font-family: 'Open Sans';
+}
+
+#banner b{
+  color: #EA2027;
+}
+
+#banner b.preco{
+  color: #EA2027;
+  font-size: 30px;
+}
+
+#botao{
+  margin: auto;
+  margin-bottom: 10px;
+  padding: 5px 60px 5px 60px;
+  background: rgba(234, 32, 39,1.0);
+  color: #f1f2f6;
+  border-radius: 5px;
+  border: none;
+}
+
+input{
+  border-radius: 2px;
+  border: none;
+  display: block;
+  margin: 10px;
+  outline: none;
+}
+
+/* parte da divisão Outros Carros */
+
+#outros_carros {
+    height: 500px;
+}
+
+#outros_carros h4{
+    background: #EA2027;
+    border-radius: 5px;
+    color: #f1f2f6;
+    padding: 5px;
+    font-size: 24px;
+    font-family: 'Open Sans';
+}
+
+#outros_carros p{
+  margin: 10px 10px 10px 82px;
+  width: 30%;
+  font-size: 15px;
+  font-family: Arial;
+  background: rgba(234, 32, 39,1);
+  color: white;
+  border-radius: 10px;
+  font-family: 'Open Sans';
+}
+
+.carros-cores{
+  text-align: center;
+}
+
+/* ROTAPE */
+
+footer{
+  background: #0c2461;
+}
+
+footer h1{
+  font-family: 'Open Sans';
+  color: #dfe4ea;
+  text-align: center;
+}
+
+.redes-sociais li{
+  display: inline-block;
+  font-size: 30px;
+  text-align: center;
+  color: #dfe4ea;
+}
+
+.redes-sociais ul{
+  text-align: center;
+}
+
+.redes-sociais li a{
+  color: #f1f2f6;
+}
+
+.redes-sociais li a:hover{
+  color: #4a69bd;
+}
+
+footer p{
+  color: #f1f2f6;
+  text-align: center;
+  font-family: 'Open Sans',sans-serif;
+}
+
+/* TABELA do pagina tabela_clientes.php */
+
+#tabela_cliente{
+    width: 100%;
+    margin-top: 50px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
