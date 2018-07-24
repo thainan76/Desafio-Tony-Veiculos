@@ -1,4 +1,5 @@
-Esse foi um desafio que fiz para tony veiculos, precisava fazer um landing page com um mini cadastro de clientes. Usei PHP para conexão ao banco de dados.
+Esse foi um desafio que fiz para tony veiculos, precisava fazer um landing page com um mini cadastro de clientes.
+Usei PHP para conexão ao banco de dados.
 
 ARQUIVOS DAS PÁGINAS:
 
